@@ -62,7 +62,7 @@ def mainmain():
     plt.axvline(x=0, color='r'   , linestyle='dashed', linewidth=1.5)
     
     if save:
-        plt.savefig(args, kwargs)
+        plt.savefig(title + '.svg', format='svg', dpi=1200)
     
     plt.show()
 
